@@ -5,9 +5,9 @@
 
 Si en Github creamos un repositorio con el mismo nombre que nuestro username es un repositorio especial donde añadir un README que aparecerá
 
-username: alansastre
+username: AngelSigueros
 
-repositorio: alansastre
+repositorio: AngelSigueros
 
 ##  BORRAR REPOSITORIO
 
@@ -19,6 +19,8 @@ En settings, hacer scroll hacia abajo del todo, en Danger zone permite borrar.
 ![Modelo Git Glow](image.png)
 
 
+
 ## Opcion Nueva
 
 desde feature/opcion-nueva
+
