@@ -5,9 +5,9 @@
 
 Si en Github creamos un repositorio con el mismo nombre que nuestro username es un repositorio especial donde añadir un README que aparecerá
 
-username: alansastre
+username: AngelSigueros
 
-repositorio: alansastre
+repositorio: AngelSigueros
 
 ##  BORRAR REPOSITORIO
 
