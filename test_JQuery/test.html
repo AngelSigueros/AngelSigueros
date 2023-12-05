@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("#boton").click(function(){
+                $("#parrafo").css("color", "red");
+                $.ajax({
+                    url: "https://api.github.com/users/octocat",
+                    type: "GET",
+                    success: function (data) {
+                        //$("#resultado").html("<p>Nombre de usuario: " + data.login + "</p><p>ID: " + data.id + "</p>");
+                        console.log(data);
+
+                        let resultado = "";
+                        for (let propiedad in data) {
+                            resultado += `<p>${propiedad}: ${data[propiedad]}</p>`;
+                        }
+                        $("#resultado").html(resultado);
+
+                    },
+                    error: function () {
+                        alert("Ha ocurrido un error con la solicitud AJAX");
+                    }
+                });
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <p id="parrafo">¡Hola, mundo!</p>
+    <button id="boton">Haz clic en mí</button>
+    <div id="resultado"></div>
+</body>
+</html>
