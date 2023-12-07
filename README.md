@@ -1,19 +1,4 @@
-## AngelSigueros
+## Angel Sigueros
 
-
-## REPOSITORIO ESPECIAL EN GITHUB CON USERNAME
-
-Si en Github creamos un repositorio con el mismo nombre que nuestro username es un repositorio especial donde añadir un README que aparecerá
-
-username: AngelSigueros
-
-repositorio: AngelSigueros
-
-##  BORRAR REPOSITORIO
-
-En settings, hacer scroll hacia abajo del todo, en Danger zone permite borrar.
-
-
-## GIT FLOW
-
-![Modelo Git Glow](image.png)
+Frontend con Html5, Css3, Angular y Javascript.
+Full Stack Devepoler con Java, Spring Framework y SQL.
